@@ -1,0 +1,115 @@
+
+/* =======================================
+*
+*   Developed By    :   OrendaX
+*   Date            :   2021/08/20
+*   Developer       :   Manasha H Perera
+*   Client          :   Travel Bag (Pvt) Ltd (BIHAN)
+*   Page            :   CSS Styles
+*
+ ======================================== */
+
+/* ======================= GENERAL STYLES ======================== */
+
+.regular-sm-text{
+    font-family: 'robotoregular';
+    font-size: 12px;
+}
+
+.light-sm-text{
+    font-family: 'robotolight';
+    font-size: 12px;
+}
+
+body{
+    font-family: 'robotolight';
+    font-size: 14px;
+    background-image: url("./images/bg_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header{
+    height:70vh;
+}
+
+.main-header{
+    font-size: 85px;
+    font-family: 'robotomedium';
+    line-height: 90px;
+}
+
+.sub-header{
+    font-size: 35px;
+    font-family: 'robotomedium';
+    line-height: 45px;
+}
+
+/* ======================= NAVBAR STYLES ======================== */
+
+nav * {
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-family: 'robotomedium';
+    position: relative;
+}
+
+.nav-link.active:before {
+    content : "";
+    position: absolute;
+    left:15%;
+    right:15%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 70%;  /* or 100px */
+    border-bottom:2px solid #ec8d21;
+}
+
+.nav-link:hover{
+    color : #ec8d21 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right : 2rem;
+    padding-left:2rem;
+}
+
+/* ======================= FOOTER STYLES ======================== */
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 10px;
+}
+
+footer.bg-dark{
+    background-color: rgba(40, 27, 12, 0.63) !important;
+}
+
+footer img {
+    margin-right:30px;
+}
+
+/* ======================== BUTTONS =============================== */
+.btn-orange {
+    background-color: #ec8d21;
+}
+
+.btn-contact {
+    width: 150px;
+    color: white !important;
+    font-family: 'robotoregular';
+}  
+
+.btn-contact a{
+    color: white !important;
+    text-decoration: none;
+}
+
